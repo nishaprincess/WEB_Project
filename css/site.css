@@ -1,0 +1,186 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+}
+.wrap-header {
+	width: 100%;
+	height: 67px;
+	float: left;
+	position: relative;
+	z-index: 200;
+	background:#faf9fc;
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.header {
+	width: 1000px;
+	float: left;
+	position: relative;
+}
+.header-left-side {
+	width: 400px;
+	height: 40px;
+	float: left;
+	margin-top: 12px;
+	margin-left: 10px;
+}
+.header .header-left-side .nav {
+	width: 100%;
+	height: 15px;
+	margin-left: 66px;
+	float: left;
+	list-style: none;
+	padding: 10px 0px;
+}
+
+.header .header-right-side .nav {
+	width: 100%;
+	height: 15px;
+	margin-left: -66px;
+	float: left;
+	list-style: none;
+	padding: 10px 0px;
+}
+
+.header .header-left-side .nav .left_ {
+	height: 15px;
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 10px;
+}
+
+.header .header-right-side .nav .right_ {
+	height: 15px;
+	float: left;
+	margin-bottom: 30px;
+	margin-right: -15px;
+}
+
+
+.header .header-left-side .nav .left_ .left_a {
+
+	font-family: 'Lato';
+	font-size: 15px;
+	color: #000;
+	float: left;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+
+.header .header-right-side .nav .right_ .right_a {
+
+	font-family: 'Lato';
+	font-size: 15px;
+	color: #000;
+	float: left;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+
+.header .header-left-side .nav .left_ .left_a:hover {
+	color: #c78918;
+}
+
+.header .header-right-side .nav .right_ .right_a:hover {
+	color: #c78918;
+}
+
+.logo {
+	float: left;
+	margin-top: -14px;
+	margin-left: -50px;
+	
+}
+
+
+.header-right-side {
+	width: 400px;
+	float: right;
+	margin-top: 12px;
+	margin-right: 10px;
+}
+.header-right-side .nav .right_ {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+
+.box-banner {
+ 	width:100%;
+	height:73vh;
+	float:left;
+	position:relative;
+    z-index:50;
+    padding-bottom: 11px;
+   
+    background:url("../back/brc.jpg") bottom center repeat-x #000;
+}
+
+
+.club_pics{
+
+  margin-top: 35px;
+
+}
+
+
+
+/* Message frame */
+
+.hexagon{
+
+	position: absolute;
+	top:10%;
+	left: 50%;
+	transform: translate(-50%,-50%) rotate(120deg);
+	width: 300px;
+	height: 200px;
+	background: transparent;
+	
+	overflow: hidden;
+}
+
+.hexagon-inner{
+
+	width: 100%;
+	height: 100%;
+	
+	transform: rotate(-60deg);
+	overflow: hidden;
+	background: transparent;
+
+}
+
+
+.hexagon-inner-in{
+
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transform: rotate(-60deg);
+	overflow: hidden;
+
+	background-size: contain;
+}
+
+.hexagon-inner-in:hover{
+
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	transform: rotate(-60deg);
+	overflow: hidden;
+
+	background-size: contain;
+}

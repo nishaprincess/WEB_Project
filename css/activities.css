@@ -1,0 +1,65 @@
+.activity_div{
+
+	position: absolute;
+	top:10%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 15px #000B;
+	background: #fff;
+	box-sizing: border-box;
+	text-align: center !important;
+	transition: transform .5s;
+}
+
+.activity_div:hover{
+
+	border-radius: 0px;
+
+
+}
+
+.activity_div:before{
+
+	content:'';
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background:#000B;
+	z-index: -1;
+	transform: rotate(-45deg);
+	border-radius: 10px;
+	text-align: center;
+
+
+}
+
+
+
+.activity_name{
+
+	margin:0;
+	padding: 0;
+	color:#fff;
+	padding: 20px;
+	box-sizing: border-box;
+	
+	margin-top: 30%;
+	text-align: center !important;
+	
+	
+	
+
+}
+
+
+.activity_name:hover{
+
+	
+	box-shadow: 0 0 50px rgba(0,0,0,.5);
+
+}
